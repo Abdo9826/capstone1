@@ -12,13 +12,13 @@
   height: 417px;
   width: 330px;
   background:
-  linear-gradient(
-    0deg,
-    rgb(255, 255, 255, 0.9),
-    rgb(255, 255, 255, 0.9)
-  ),
-  url(images/header_background\ -\ Copy.jpg) no-repeat center;
-background-size: cover;
+      linear-gradient(
+     0deg,
+     rgb(255, 255, 255, 0.9),
+     rgb(255, 255, 255, 0.9)
+    ),
+    url(images/header_background\ -\ Copy.jpg) no-repeat center;
+  background-size: cover;
   margin-left: -200%;
   filter: blur(0.5px);
   transition: 0.2s;
@@ -416,7 +416,7 @@ footer {
   .part1nav {
     background-color: #424242;
     margin-top: -15px;
-    margin-left: 0px;
+    margin-left: 0;
     padding-left: 1000px;
   }
 
@@ -562,7 +562,7 @@ footer {
     margin-left: 300px;
     width: 1000px;
     display: flex;
-    margin-top: 40px; 
+    margin-top: 40px;
     gap: 50px;
     flex-wrap: wrap;
   }
@@ -633,7 +633,7 @@ footer {
   }
 
   .hrsection2 {
-    margin-left: 670px;
+    margin: 10px auto;
   }
 
   .part1-section {
