@@ -12,7 +12,7 @@
   height: 417px;
   width: 330px;
   background-image: url(images/background.jpg);
-  margin-left: -120%;
+  margin-left: -200%;
   filter: blur(0.5px);
   transition: 0.2s;
 }
@@ -70,7 +70,6 @@ nav {
 header {
   background-image: url(images/background.jpg);
   height: 450px;
-  width: 350px;
   background-color: #fff;
 }
 
@@ -80,7 +79,6 @@ h1 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  width: 320px;
   left: 24px;
 }
 
@@ -90,14 +88,12 @@ header h2 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  width: 320px;
   left: 24px;
 }
 
 header p {
   margin: 30px;
   font-size: 15px;
-  width: 320px;
   font-weight: lighter;
   color: #393b3f;
   margin-left: 20px;
@@ -123,12 +119,52 @@ header h4 {
   margin-left: 20px;
 }
 
+.li1-section {
+  background-image: url(images/1.PNG);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+.li2-section {
+  background-image: url(images/2.PNG);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+.li3-section {
+  background-image: url(images/3.PNG);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+.li4-section {
+  background-image: url(images/4.PNG);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+.li5-section {
+  background-image: url(images/5.PNG);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+.ul-section {
+  margin-bottom: -20px;
+}
+
 .main-program {
+  align-items: center;
   background-image: url(images/bck.jpg);
-  width: 350px;
   background-color: #272a31;
   padding-top: 20px;
+  padding-bottom: 32px; 
+  box-sizing: border-box; 
   height: 650px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;  
+  display: flex;
 }
 
 .main-program h2 {
@@ -138,8 +174,7 @@ header h4 {
 }
 
 .main-program hr {
-  margin-top: 10px;
-  margin-left: 150px;
+  margin: auto auto;
   width: 40px;
   border: 1px solid #ec5242;
   border-radius: 10px;
@@ -150,15 +185,15 @@ header h4 {
 }
 
 .main-program ul li {
-  margin-left: 10px;
   gap: 10px;
   height: 70px;
   margin-top: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
   display: flex;
   background-color: #3b4047;
-  width: 330px;
   border-radius: 10px;
-  padding-left: 10px;
+  padding-left: 60px;
 }
 
 .main-program ul h3 {
@@ -179,7 +214,7 @@ header h4 {
   width: 250px;
   margin-top: 40px;
   height: 60px;
-  margin-left: 50px;
+  padding: 20px;
   border-radius: 10px;
   border: none;
   background-color: #ec5242;
@@ -189,7 +224,6 @@ header h4 {
 
 footer {
   height: 400px;
-  width: 350px;
   padding-top: 30px;
 }
 
@@ -201,8 +235,7 @@ footer {
 }
 
 .hrfooter {
-  margin-top: 10px;
-  margin-left: 150px;
+  margin: 10px auto;
   width: 40px;
   border: 1px solid #ec5242;
   border-radius: 10px;
@@ -210,7 +243,6 @@ footer {
 
 .speakers {
   margin-left: 0;
-  width: 350px;
   margin-top: 40px;
   gap: 50px;
 }
@@ -280,7 +312,9 @@ footer {
 }
 
 .Global-logo {
-  width: 350px;
+  background-image: url(images/double-pic.PNG);
+  background-repeat: no-repeat;
+  background-position: center 500px;
   background-color: #fff;
   padding-top: 20px;
   height: 920px;
@@ -294,8 +328,7 @@ footer {
 }
 
 .hrsection2 {
-  margin-top: 10px;
-  margin-left: 165px;
+  margin: 10px auto;
   width: 20px;
   border: 1px solid #ec5242;
   border-radius: 10px;
@@ -308,14 +341,6 @@ footer {
   text-align: center;
   font-size: 14px;
   height: 60px;
-}
-
-.imgs {
-  display: flex;
-  flex-direction: column;
-  width: 308px;
-  padding-left: 43px;
-  gap: 10px;
 }
 
 .footer2 {
@@ -347,6 +372,10 @@ footer {
 }
 
 .part1-section {
+  background-image: url(images/CC-Global-summit2015.PNG);
+  background-repeat: no-repeat;
+  background-position: center 150px;
+  height: 300px;
   margin-bottom: 70px;
 }
 
@@ -377,8 +406,8 @@ footer {
   }
 
   .ulnav {
-    margin-top: -30px;
-    margin-left: 850px;
+    margin-top: -30px; 
+    margin-left: 850px; 
     gap: 60px;
     height: 30px;
     display: flex;
@@ -439,13 +468,8 @@ footer {
   }
 
   .ul-section {
-    margin-left: 200px;
+    margin-bottom: 20px;
     display: flex;
-  }
-
-  .main-program button {
-    margin-top: 40px;
-    margin-left: 520px;
   }
 
   .main-program ul li p {
@@ -454,8 +478,10 @@ footer {
     margin-left: -5px;
   }
 
+
   .main-program ul li {
     padding-top: 40px;
+    padding-left: 0;
     height: 150px;
     width: 170px;
     display: flex;
@@ -498,7 +524,8 @@ footer {
   }
 
   .main-program hr {
-    margin-left: 650px;
+    margin-bottom: 0;
+   margin-top: 20px;
   }
 
   footer {
@@ -553,7 +580,7 @@ footer {
   }
 
   .h1s {
-    margin-left: 200px;
+    margin-left: -330px;
   }
 
   .h2s {
@@ -562,7 +589,9 @@ footer {
   }
 
   .ps {
-    margin-left: 200px;
+    margin-top: 70px;
+    width: 400px;
+    margin-left: 170px;
   }
 
   .Global-logo {
@@ -571,6 +600,13 @@ footer {
     background-position: center 500px;
     width: 1349px;
     height: 800px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
   }
 
   .pglobal {
@@ -597,6 +633,14 @@ footer {
     background-color: #2e2d2d;
     background-position: center;
     height: 100px;
+  }
+
+  .last-part {
+    background-image: url(images/lastpic.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    background-color: #f5f5f5;
   }
 
   .none {
