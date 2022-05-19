@@ -5,13 +5,13 @@ const b3 = document.querySelector('.b3');
 const menu = document.querySelector('.ulnav');
 
 humberger.addEventListener('click', () => {
-humberger.classList.toggle('active');
-menu.classList.toggle('active');
+  humberger.classList.toggle('active');
+  menu.classList.toggle('active');
 });
 
 b.addEventListener('click', () => {
-humberger.classList.remove('active');
-menu.classList.remove('active');
+  humberger.classList.remove('active');
+  menu.classList.remove('active');
 });
 
 b2.addEventListener('click', () => {

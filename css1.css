@@ -154,16 +154,15 @@ header h4 {
 }
 
 .main-program {
-  align-items: center;
   background-image: url(images/bck.jpg);
   background-color: #272a31;
   padding-top: 20px;
   padding-bottom: 32px; 
-  box-sizing: border-box; 
+  box-sizing: border-box;
   height: 650px;
   flex-direction: column;
   align-content: center;
-  align-items: center;  
+  align-items: center;
   display: flex;
 }
 
@@ -406,8 +405,8 @@ footer {
   }
 
   .ulnav {
-    margin-top: -30px; 
-    margin-left: 850px; 
+    margin-top: -30px;
+    margin-left: 850px;
     gap: 60px;
     height: 30px;
     display: flex;
@@ -478,7 +477,6 @@ footer {
     margin-left: -5px;
   }
 
-
   .main-program ul li {
     padding-top: 40px;
     padding-left: 0;
@@ -525,7 +523,7 @@ footer {
 
   .main-program hr {
     margin-bottom: 0;
-   margin-top: 20px;
+    margin-top: 20px;
   }
 
   footer {
@@ -601,7 +599,7 @@ footer {
     width: 1349px;
     height: 800px;
   }
-  
+
   .btn {
     display: flex;
     justify-content: center;

@@ -35,11 +35,11 @@ const speaker = [
     image: 'Julia.PNG',
   },
   {
-      id: 6,
-      name: 'Ryan Merkley',
-      Title: 'CEO of creative commmons, ex COO of the Mozilla Foundation',
-      description: 'Ryan had been leading open-source projects at the Moxilla Foundation such as the open source move-ment.',
-      image: 'Ryan.PNG',
+    id: 6,
+    name: 'Ryan Merkley',
+    Title: 'CEO of creative commmons, ex COO of the Mozilla Foundation',
+    description: 'Ryan had been leading open-source projects at the Moxilla Foundation such as the open source move-ment.',
+    image: 'Ryan.PNG',
   },
 ];
 const Mainpage = speaker.map((section) => ` <div class="person gap">
