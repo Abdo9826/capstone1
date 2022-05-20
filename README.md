@@ -33,7 +33,7 @@ Javascript
 ### Deployment
 
 ### live version 
-https://abdo9826.github.io/capstone1/
+ https://abdo9826.github.io/capstone1/
 
 
 
